@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    /* background-color: #1f2937; */
+}
+.navbar{
+background-color: #1f2937;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 10vh;
+font-size: 22px;
+}
+.navbar .logo{
+    margin-right: 80px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 18px;
+}
+.navbar ul li a{
+    color: #30015f;
+    text-decoration: none;
+}
+.navbar ul li a{
+    color: #f6f607;
+    text-decoration: none;
+}
+
+.banner-section{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    height: 88vh;
+    padding-top: 90px;
+    margin-bottom: 10px;   
+}
+.banner-section .banner-left{
+    margin-left: 20px;
+    color: #e5e7eb;
+    font-size: 22px;
+    line-height: 35px;
+    text-decoration: none;
+    margin-left: 80px;
+}
+.banner-section .banner-left .discover{
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #559241;
+  border: none;
+  color:#ffffff;
+  font-family: sans-serif;
+  font-size: 24px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.banner-section .banner-left .discover:hover{
+color:aqua;
+}
+#header{
+    font-size: 60px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+.navbar ul li a:hover{
+    color:aqua;
+}
